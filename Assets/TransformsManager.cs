@@ -42,7 +42,7 @@ public class TransformsManager : MonoBehaviour
                 isRotated = true; //aclaro que esta rotado en el bool, declarandolo como true.
             }
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S)) //s de escalar  scale. Hacemos lo mismpo que hicimos arribsa pero en vez de para rotar, para cambiar la escala.
         {
             if (isScaled)
             {
